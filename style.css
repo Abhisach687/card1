@@ -1,0 +1,68 @@
+:root {
+  --white: #fff;
+  --black: #080809;
+  --text-2: #84829a;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+section {
+  margin-top: 200px;
+  margin: auto;
+  width: 23.125rem;
+  height: 25rem;
+  flex-shrink: 0;
+  border-radius: 1.625rem;
+  background: var(--white);
+}
+
+img {
+  border-radius: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  width: 20.0625rem;
+  height: 10.0625rem;
+  flex-shrink: 0;
+}
+
+h1,
+.para1,
+.para2 {
+  margin-left: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 124.5%;
+}
+
+h1 {
+  color: var(--black);
+  font-size: 1.125rem;
+  letter-spacing: 0.01688rem;
+}
+
+.para1,
+.para2 {
+  color: var(--text-2);
+  font-size: 1rem;
+  letter-spacing: -0.005rem;
+}
+
+.svgs {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.svgs svg:hover {
+  cursor: pointer;
+}
+
+.para2 {
+  letter-spacing: -0.02rem;
+}
+
+.end_line {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
